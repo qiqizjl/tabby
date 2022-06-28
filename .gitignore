@@ -19,6 +19,7 @@ dist
 coverage
 .nyc_output
 npm-debug.log
+.idea
 
 builtin-plugins
 package-lock.json
