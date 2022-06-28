@@ -181,7 +181,7 @@ export class SSHSession {
         if (!this.profile.options.auth || this.profile.options.auth === 'keyboardInteractive') {
             this.remainingAuthMethods.push({ type: 'keyboard-interactive' })
         }
-        this.remainingAuthMethods.push({ type: 'keyboard-interactive'})
+        this.remainingAuthMethods.push({ type: 'keyboard-interactive' })
         this.remainingAuthMethods.push({ type: 'hostbased' })
     }
 
